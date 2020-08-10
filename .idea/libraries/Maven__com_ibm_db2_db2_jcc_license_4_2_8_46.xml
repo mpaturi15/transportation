@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ibm.db2:db2-jcc-license-4:2.8.46">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/db2/db2-jcc-license-4/2.8.46/db2-jcc-license-4-2.8.46.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/db2/db2-jcc-license-4/2.8.46/db2-jcc-license-4-2.8.46-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/db2/db2-jcc-license-4/2.8.46/db2-jcc-license-4-2.8.46-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

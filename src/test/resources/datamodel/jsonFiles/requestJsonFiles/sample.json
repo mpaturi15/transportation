@@ -1,0 +1,25 @@
+{
+	"messageHdr": {
+		"orderSource": "BUY",
+		"orderReferenceNumber": 0,
+		"divisionNumber": 71,
+		"sourceSystemTokenId": "",
+		"createDate": null,
+		"createUserId": "B005725",
+		"divisionId": 12,
+		"purchaseOrderNumber": 0.0,
+		"departmentNumber": 358,
+		"vendorNumber": 504,
+		"poGenratedByNumber": 1,
+		"messageType": "CREATEPO",
+		"reqStatus": 10,
+		"shipDate": "02/07/2020",
+		"cancelDate": "02/17/2020",
+		"distroByDate": "2020-02-07",
+		"poDescription": "BUY GenType PO",
+		"upcFlag": "",
+		"mergeSplitCode": "HF",
+		"poStatusnbr": "30",
+		"reservationNumber": null
+	}
+}

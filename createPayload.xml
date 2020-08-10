@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="TestDataCreation">
+        <parameter name="fileName" value="sample.json"/>
+        <!--
+        Type value is request for
+        -->
+        <parameter name="type" value="request"/>
+        <parameter name="generateDataFile" value="yes"/>
+        <classes>
+            <class name="com.macys.mtp.utils.TestDataCreation"/>
+        </classes>
+
+    </test>
+</suite>

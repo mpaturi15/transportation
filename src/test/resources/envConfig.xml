@@ -1,0 +1,69 @@
+<document>
+
+	<config type="env" name="BIZ">
+		<cyberark>
+			<safe>TBD</safe>
+			<appid>TBD</appid>
+			<DbPwdobjectid>Misc-Macys-Application-Passive-scmqauser</DbPwdobjectid>
+			<AppPwdobjectid>cloud-app-superuser-login</AppPwdobjectid>
+		</cyberark>
+		<AppUrls>
+			<FOMurl>http://ma001xsjda1006.federated.fds:8001/fom/shell/</FOMurl>
+			<userName>AutomationTest1</userName>
+			<password>Autouser@123</password>
+		</AppUrls>
+		<tms>
+			<url>http://ma001xsjda1006.federated.fds:7001/tm/framework/Frame.jsp</url>
+			<userName>AutomationTest1</userName>
+			<passWord>Autouser@123</passWord>
+			<!-- EMS Details -->
+		<ems>
+        <server>
+        <url>tcp://tibanp209.federated.fds:7212</url>
+        <username>admlgsedi</username>
+        <pwdobjectid>admlgsedi</pwdobjectid>
+        </server></ems>
+			
+		</tms>
+		<!-- Database Details -->
+		<db>			
+			<MPM>
+				<driver>
+					<classname>oracle.jdbc.driver.OracleDriver</classname>
+				</driver>
+				<userName>FARCVM1</userName>
+				<connecturi>jdbc:oracle:thin:@11.72.15.197:1521:LFCBIZ01</connecturi>
+				<pwdobjectid>b_IZz101</pwdobjectid>
+			</MPM>
+			<OCAINBIZA>
+				<driver>
+					<classname>oracle.jdbc.driver.OracleDriver</classname>
+				</driver>
+				<userName>OCAINBIZA</userName>
+				<connecturi>jdbc:oracle:thin:@AINBIZ02DB.FEDERATED.FDS:1521:AINBIZ02</connecturi>
+				<pwdobjectid>OCAINBIZA1</pwdobjectid>
+			</OCAINBIZA>
+			<SQLSERVER>
+				<driver>
+					<classname>com.microsoft.sqlserver.jdbc.SQLServerDriver</classname>
+				</driver>
+				<connecturi>jdbc:sqlserver://mt000xbsql107\inst1;databaseName=ORDMGTHUBBIZ;integratedSecurity=true
+				</connecturi>
+			</SQLSERVER>
+			
+		</db>
+
+		<services>
+			<PurchaseOrderManagerService>
+				<CreatePurchaseOrder>http://mt001xsbuy9007:1000/OMLoadMessage/OMLoadMessage.svc/loadmessage</CreatePurchaseOrder>
+				<GetBuyPurchaseOrder></GetBuyPurchaseOrder>
+			</PurchaseOrderManagerService>
+			<ShipmentrService>
+
+			</ShipmentrService>
+		</services>
+
+
+	</config>
+
+</document>

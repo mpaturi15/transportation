@@ -1,0 +1,37 @@
+[
+  {
+    "module": "test",
+    "stories": [
+    "MIR-201_E2EScenario_VendorLogin",
+"MIR-205_E2EScenario_UserLogin",
+ "MIR-203_E2EScenario_Multiple_PO_Single_Shipment"
+    
+    ]
+  },
+  {
+    "module": "PurchaseOrder",
+    "stories": [
+      "MIR-000_PurchaseOrderCreation",
+      "MIR-001_PurchaseOrderUpdation"
+      ]
+  },
+   {
+    "module": "Shipment",
+    "stories": [
+      "MIR-010_ShipmentCreation",
+      "MIR-011_Shipmentupdation"
+    ]
+  },
+  {
+    "module": "FOM Login",
+    "stories": [
+      "Scenario_Login"
+    ]
+  },
+  {
+    "module": "SampleTest",
+    "stories": [
+      "MIR-201_E2EScenario_VendorLogin"
+    ]
+  }
+]
